@@ -4,7 +4,6 @@
 }
 
 /* do 359px */
-
 p {
   line-height: 100vh;
   text-align: center;
@@ -15,56 +14,60 @@ p {
 }
 
 /* od 360px */
-
-@media (min-width: 360px) {
-  p {
-    font-size: 24px;
-    color: red;
-  }
+@media (min-width: 360px)  {
+p {
+  font-size: 24px;
+  color: red;
+}
 }
 
-@media (min-width: 400px) {
+/* od 400px */
+@media (min-width: 400px)  {
   p {
     font-size: 26px;
     color: blue;
   }
-}
+  }
 
-@media (min-width: 600px) {
+  /* od 600px */
+@media (min-width: 600px)  {
   p {
-    font-size: 30px;
+    font-size: 26px;
     color: green;
   }
-}
+  }
 
-@media (min-width: 1024px) {
+  
+  /* od 1024px */
+@media (min-width: 1024px)  {
   p {
     font-size: 50px;
     color: green;
   }
-}
+  }
 
-@media (min-width: 1440px) {
+    /* od 1440px */
+@media (min-width: 1440px)  {
   p {
     font-size: 80px;
     color: green;
   }
-}
+  }
 
-@media (orientation: portrait) {
-  body {
+  @media (orientation: portrait) {
+    body {
     background-color: aqua;
   }
 }
 
 @media (orientation: landscape) {
   body {
-    background-color: darkcyan;
-  }
+  background-color: darkcyan;
+}
 }
 
 @media (orientation: landscape) and (min-width: 640px) {
   body {
-    background-color: orangered;
-  }
+  background-color: orangered;
+}
 }
